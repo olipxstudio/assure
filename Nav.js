@@ -12,7 +12,7 @@ export default function Nav(){
     return (
         <header className={`container`}>
             <Image src={"/Assure-Biz-logo-wh.png"} alt="" width={230} height={60} />
-            <ul className={`${styles.txt_white} ${styles.flex} ${styles.justify}`} style={{display:display}}>
+            <ul className={`${styles.txt_white} ${styles.flex} ${styles.justify}`} style={{display:'none'}}>
                 <li><Link href="/" className="">Home</Link></li>
                 <li><Link href="/about" className="">About Us</Link></li>
                 <li><Link href="/services" className="">Services</Link></li>
